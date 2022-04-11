@@ -33,7 +33,7 @@ export class ApiService {
   }
   getCountriesByContinent(continent: string): Observable<any[]>{
     this.countries = COUNTRIES;
-    this.routerService.navigate(['/liste_pays', continent]);
+    this.routerService.navigate(['/pays', continent]);
     this.filteredCountriesByContinent = this.countries.filter((country)=>{
       return country.region?.toLowerCase() === continent.toLowerCase();
     })

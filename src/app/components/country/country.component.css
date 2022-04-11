@@ -1,0 +1,14 @@
+.country-card{
+
+    width: 20vw;
+
+     font-family: 'Playfair Display', serif;
+    margin-right: 1.5px;
+}
+img{
+    width: 80%;
+    height: 150px;
+    margin: 0 25px;
+    border: 2px solid rgb(180, 132, 34);
+}
+

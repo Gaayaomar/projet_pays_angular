@@ -1,0 +1,11 @@
+<div class="container">
+
+    <nav>
+        <ul>
+            <li><a  [routerLink]="['home']" routerLinkActive="active text-primary"   >pays du monde</a></li>
+            <li><a  [routerLink]="['']" routerLinkActive="active text-primary" [routerLinkActiveOptions]="{exact:true}" >acceuil</a></li>
+            <li><a (click)="resetCountries()" [routerLink]="['liste_pays']" routerLinkActive="active text-primary"  >pays</a></li>
+            <li><a [routerLink]="['continents']" routerLinkActive="active text-primary" >Continents</a></li>
+        </ul>"
+    </nav>
+</div>
